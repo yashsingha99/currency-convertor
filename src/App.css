@@ -1,0 +1,43 @@
+.container-fluid{
+    min-height: 100vh;
+    background-color: #278285;
+    background-image:'https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' ;
+}
+
+.content{
+    background-color: #5aaac7;
+    /* background-color: #fff; */
+    border-radius: 10px;
+    height: 400px;
+    width: 700px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    backdrop-filter: brightness(200%);
+}
+.swap{
+    position:absolute;
+    height: 12%;
+    z-index: 2;
+    width: 15%;
+    left: 45%;
+    bottom: 54%;
+    background: #396afc;
+    border: none;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+.convert{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #396afc;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+
+}

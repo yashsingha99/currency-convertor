@@ -1,0 +1,29 @@
+.container{
+    height: 30%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-between;
+}
+.inp{
+    border: none;
+    outline: none;
+    border-radius:10px;
+    background-color: rgb(241, 243, 245);
+}
+.dropBox{
+    height: 70%;
+}
+form{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
